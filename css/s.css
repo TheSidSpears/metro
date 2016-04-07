@@ -1,0 +1,110 @@
+body{
+	background:url(pic/cover2.jpg) fixed no-repeat center center;
+	font-family: 'Josefin Slab', Arial, sans-serif;
+}
+
+
+a
+{
+	color:#917d89;
+	text-decoration:none;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #eeb213;
+	color: #eeb213;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0,0,0,0.7);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+a:hover
+{
+	color:#996699;
+	text-decoration:none;
+	text-shadow:2px 2px 8px #555;
+}
+
+.bmenu{
+	width: 600px; height:100px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    position: absolute;
+	left: 50%;
+    top: 50%;
+    margin-left: -300px; 
+    margin-top: -150px;
+	
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+}
+
+.bmenu li a{
+	text-decoration:none;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #eeb213;
+	color: #eeb213;
+	padding: 5px 20px;
+	margin: 2px;
+	background: rgba(0,0,0,0.7);
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.bmenu:hover li a{
+	text-shadow: 0px 0px 10px #eeb213;
+	color: transparent;
+	background: rgba(0,0,0,0.2);
+}
+.bmenu li a:hover{
+	background: rgba(0,0,0,1.0);
+	text-shadow: 0px 0px 1px #eeb213;
+}
+
+
+#error
+{
+    background: url(pic/error.png) no-repeat 0 2px;
+    padding-left: 17px;
+	color:#d59191;
+}
+
+#ok
+{
+    background: url(pic/ok.png) no-repeat 0 2px;
+    padding-left: 17px;
+	color:aae9a4;
+}
+	
+table
+{
+	background-color:#25170c;
+	border-spacing: 1px;
+    border-width:1px;
+    border-style: solid;
+    width:100%;
+}
+
+table font
+{
+    color:#4d351d;
+}
+
+td
+{
+	background-color:#de8f34;
+}
+th
+{
+	background-color:#dfb585;
+}

@@ -1,0 +1,176 @@
+body
+{
+	background:url(pic/cover.jpg);
+	/*background-position: center center;*/
+	background-size:100%;
+	background-repeat: no-repeat;
+	line-height:1.5;
+
+}
+div
+{
+	opacity:0.9; /*прозрачность*/
+	filter: alpha(Opacity=90); /*прозрачность для IE*/
+	width:500px;
+	height:500px;
+	margin:auto;
+ 	/*background: -o-linear-gradient(top left,#f2f2f2, #777, #404040, #252525);*/
+    background: -webkit-gradient(linear, 0 0, 0  100%, from(#f2f2f2), to(#252525), color-stop(0.8, #777), color-stop(0.6,  #404040));
+	/*background: -moz-linear-gradient(top left,#f2f2f2, #777, #404040, #252525); 
+	background: -moz-linear-gradient(top right,#1c1209,#25170c , #644526, #412716);*/
+	border:0px solid #000;
+	border-radius:10px;
+	box-shadow:7px 7px 10px #000;
+	padding:10px;
+	list-style:none;
+}
+
+h1
+{
+	color:#930;
+	text-shadow:2px 1px 8px #fff;
+	text-align: center;
+}
+
+font
+{
+	color:#930;
+	text-shadow:2px 1px 8px #fff;
+}
+
+a
+{
+	color:#007d89;
+	color:#fff;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#996699;
+	text-decoration:none;
+	text-shadow:2px 2px 8px #555;
+}
+
+
+
+
+#error
+{
+    background: url(pic/error.png) no-repeat 0 2px;
+    padding-left: 17px;
+	color:#d59191;
+}
+
+#ok
+{
+    background: url(pic/ok.png) no-repeat 0 2px;
+    padding-left: 17px;
+	color:aae9a4;
+}
+
+input,select
+{
+	background-color:#cc9966;
+    border-color:#cc9966;
+	color:#930;
+	text-shadow:1px 1px 5px #930;
+	width:40%;
+}
+
+
+table
+{
+	background-color:#25170c;
+	border-spacing: 1px;
+    border-width:1px;
+    border-style: solid;
+    width:100%;
+}
+
+table font
+{
+    color:#4d351d;
+}
+
+td
+{
+	background-color:#de8f34;
+}
+th
+{
+	background-color:#dfb585;
+}
+
+input[type="submit"]
+{
+    margin-top: 10px;
+	height: 23px;
+	padding: 0 0 2px;
+	font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #704A25;
+	border: 1px solid #D2A146;
+	border-top: 1px solid #EAB551;
+	border-bottom: 1px solid #AF8234;
+	text-shadow: 1px 1px #FEDFA0;
+	box-shadow:
+		inset 0 1px #FEE9AA,
+		inset 1px 0 #FED67F,
+		inset -1px 0 #FEDA85,
+		inset 0 -1px #FECA6F,
+		0 2px #B98A37,
+		0 3px #9F7630,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top, #feda71 0%, #febe4d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feda71), color-stop(100%,#febe4d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #feda71 0%,#febe4d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #feda71 0%,#febe4d 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #feda71 0%,#febe4d 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feda71', endColorstr='#febe4d',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #feda71 0%,#febe4d 100%); /* W3C */
+	background-color: #FED166;
+}
+input[type="submit"]::-moz-focus-inner{border:0}
+input[type="submit"]:hover
+{
+	border-top: 1px solid #E6A93D;
+	box-shadow:
+		inset 0 1px #FEDB98,
+		inset 1px 0 #FED67F,
+		inset -1px 0 #FEDA85,
+		inset 0 -1px #FED781,
+		0 2px #B98A37,
+		0 3px #9F7630,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top, #fec455 0%, #fecd61 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fec455), color-stop(100%,#fecd61)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fec455 0%,#fecd61 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fec455 0%,#fecd61 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #fec455 0%,#fecd61 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec455', endColorstr='#fecd61',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #fec455 0%,#fecd61 100%); /* W3C */
+	background-color: #FED166;
+}
+input[type="submit"]:active
+{
+	top: 3px;
+	border: 1px solid #CF9D42;
+	border-top: 1px solid #A77F35;
+	border-bottom: 1px solid #E2AC48;
+	background: #FEC151;
+	box-shadow: inset 0 1px 2px #C49846;
+}
+
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+	margin-left: 10px; /* Отступ слева в браузере IE и Opera */
+	padding-left: 10px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
